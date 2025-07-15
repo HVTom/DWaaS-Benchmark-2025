@@ -9,25 +9,12 @@ This project is a modular, reproducible benchmarking framework for evaluating th
 
 ---
 
-## Table of Contents
-
-- [Features](#features)
-- [Architecture & Scripts](#architecture--scripts)
-- [Benchmark Methodology](#benchmark-methodology)
-- [Datasets](#datasets)
-- [Results Summary](#results-summary)
-- [Usability Notes](#usability-notes)
-- [How to Run](#how-to-run)
-- [Future Enhancements](#future-enhancements)
-
----
-
-## Features
+## Functionality
 
 - **Multi-platform benchmarking:** Google BigQuery, Amazon Redshift, Azure Synapse
 - Modular, automated Bash scripts for orchestration
 - Flexible data volumes (80MB–5GB+)
-- Metric tracking: ingestion, query, transformation time, cost per operation
+- Metrics tracked: ingestion, query, transformation times + cost per operation
 - Metrics extraction from system tables
 - Portable and reusable: works with other datasets
 - Free-tier/academic-friendly; minimal setup
@@ -86,7 +73,7 @@ Automated shell scripts are used for flexibility and reusability.
 
 ## Datasets
 
-- **Source:** MITRE Synthea synthetic medical datasets
+- **Source:** [MITRE Synthea](https://duckduckgo.com ) synthetic medical datasets
 - **Format:** 16–18 related CSV files (patients, medications, conditions, etc.)
 - **Sizes:**
   - 80 MB (small)
