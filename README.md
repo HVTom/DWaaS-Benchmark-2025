@@ -11,7 +11,6 @@ This project is a modular, reproducible benchmarking framework for evaluating th
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Features](#features)
 - [Architecture & Scripts](#architecture--scripts)
 - [Benchmark Methodology](#benchmark-methodology)
@@ -20,7 +19,6 @@ This project is a modular, reproducible benchmarking framework for evaluating th
 - [Usability Notes](#usability-notes)
 - [How to Run](#how-to-run)
 - [Future Enhancements](#future-enhancements)
-- [References & Contact](#references--contact)
 
 ---
 
@@ -149,26 +147,5 @@ Automated shell scripts are used for flexibility and reusability.
 - Bash shell (Linux/macOS or Git Bash on Windows)
 - Cloud provider auth tools (`gcloud`, `aws`, `az`) installed and authenticated
 
----
 
-## Future Enhancements
 
-- Further modularization for extensibility
-- Secure, external configuration for sensitive variables
-- Support for other CDWs (e.g., Snowflake)
-- Benchmarking of ML-native and streaming workloads
-- Unified orchestrator script to run multi-platform tests in parallel
-
----
-
-## References & Contact
-
-- Based on academic evaluation and rigorous benchmarking of cloud data warehouse platforms, combining automated scripting and detailed metric extraction.
-- For background theory and detailed methodology, see thesis and poster included in this repo.
-- **Contact:** Open an issue or see the thesis/poster PDF for the author's contact.
-
----
-
-**Attachments:**  
-- `Poster_Hritu_Toma_IS_Data_Warehouses_as_a_Service.pdf`  
-- `Dizertatie_Hritu_Toma_IS_Data_Warehouses_as_a_Service.pdf`  
