@@ -1,0 +1,27 @@
+platform,dataset_size,operation_type,job_id,duration_seconds,rows_processed,mb_processed,total_exec_time,slot_count,table_name,cost_usd,timestamp
+Synapse,large,LOAD_COST,SUMMARY,,,327.360000,,,LOAD_TOTAL,0.10800000,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29669,2,0,1.859000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29686,7,0,6.985000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29701,14,0,14.580000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29718,1,0,1.438000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29741,43,0,43.099000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29756,2,0,1.984000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29773,3,0,3.453000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29796,50,0,49.819000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29831,151,0,151.916000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29850,1,0,1.218000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29867,4,0,4.063000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29882,6,0,6.281000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29897,0,0,.939000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29914,17,0,16.583000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29929,2,0,2.328000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,LOAD,sy_QID29946,21,0,20.815000,,25,load_operation,,2025-06-22 22:09:04
+Synapse,large,QUERY_COST,SUMMARY,,,199.174000,,,QUERY_TOTAL,0.06633200,2025-06-22 22:54:38
+Synapse,large,QUERY,sy_QID30348,13,6622,13.206000,,50,patients_encounters_basic,,2025-06-22 22:54:38
+Synapse,large,QUERY,sy_QID30355,156,5353,156.762000,,85,encounters_medications_complex,,2025-06-22 22:54:38
+Synapse,large,QUERY,sy_QID30368,29,4429,29.066000,,75,conditions_progression,,2025-06-22 22:54:38
+Synapse,large,QUERY,sy_QID30368,1500+,?,many,,100%,observations_patients_analysis,,2025-06-22 23:15:00+
+Synapse,large,TRANSFORM_COST,SUMMARY,,,32.520000,,,TRANSFORM_TOTAL,0.01099900,2025-06-22 22:56:49
+Synapse,large,TRANSFORM,sy_QID30399,6,116,6.814000,,50,patients_clean,,2025-06-22 22:56:49
+Synapse,large,TRANSFORM,sy_QID30415,17,116,16.564000,,50,medications_normalized,,2025-06-22 22:56:49
+Synapse,large,TRANSFORM,sy_QID30431,10,116,9.142000,,50,procedures_enriched,,2025-06-22 22:56:49

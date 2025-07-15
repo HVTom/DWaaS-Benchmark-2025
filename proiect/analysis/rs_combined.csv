@@ -1,0 +1,109 @@
+platform, dataset_size, operation_type, job_id   , duration_seconds, rows_processed, mb_processed, total_exec_time, slot_count, table_name                     , cost_usd, timestamp
+Redshift, tiny        , LOAD_COST     , SUMMARY  ,            0.0  ,              0,        78.78,               0,          0, LOAD_TOTAL                     ,   0.0004, 2025-06-22T12:42:28
+Redshift, tiny        , LOAD          , rs_650003,            0.27 ,            101,         0.02,               0,          1, allergies                      ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650010,            0.167,            438,         0.08,               0,          1, careplans                      ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650026,            0.291,          11974,         4.39,               0,          1, claims                         ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650039,            1.306,         111050,        48.14,               1,          1, claims_transactions            ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650047,            0.179,           4429,         0.66,               0,          1, conditions                     ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650054,            0.169,            733,         0.16,               0,          1, devices                        ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650064,            0.216,           6622,         2.10,               0,          1, encounters                     ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650072,            0.22 ,            914,         0.33,               0,          1, imaging_studies                ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650079,            0.167,           1565,         0.22,               0,          1, immunizations                  ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650086,            0.203,           5353,         1.33,               0,          1, medications                    ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650096,            0.55 ,          96125,        16.23,               0,          1, observations                   ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650103,            0.162,            284,         0.04,               0,          1, organizations                  ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650110,            0.183,            117,         0.03,               0,          1, patients                       ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650127,            0.199,           1159,         0.20,               0,          1, payer_transitions              ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650136,            0.196,             11,         0.00,               0,          1, payers                         ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650146,            0.251,          20253,         4.29,               0,          1, procedures                     ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650153,            0.174,            284,         0.05,               0,          1, providers                      ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , LOAD          , rs_650160,            0.176,           3604,         0.48,               0,          1, supplies                       ,   0.0   , 2025-06-22 12:42:28
+Redshift, tiny        , QUERY_COST    , SUMMARY  ,            0.0  ,              0,         3.24,               0,          0, QUERY_TOTAL                    ,   0.0002, 2025-06-22T12:43:15
+Redshift, tiny        , QUERY         , rs_650175,            0.142,          20990,         2.77,               0,          1, patients_encounters_basic      ,   0.0   , 2025-06-22 12:43:15
+Redshift, tiny        , QUERY         , rs_650179,            0.065,           9466,         0.45,               0,          1, general_dataset_query          ,   0.0   , 2025-06-22 12:43:15
+Redshift, tiny        , QUERY         , rs_650182,            0.475,              0,         0.00,               0,          1, encounters_medications_analysis,   0.0   , 2025-06-22 12:43:15
+Redshift, tiny        , QUERY         , rs_650186,            2.06 ,              0,         0.00,               2,          1, conditions_progression_analysis,   0.0   , 2025-06-22 12:43:15
+Redshift, tiny        , TRANSFORM_COST, SUMMARY  ,            0.0  ,              0,        18.78,               0,          0, TRANSFORM_TOTAL                ,   0.0000, 2025-06-22T12:44:04
+Redshift, tiny        , TRANSFORM     , rs_650216,            0.065,            116,         0.03,               0,          1, patients_clean                 ,   0.0   , 2025-06-22 12:44:04
+Redshift, tiny        , TRANSFORM     , rs_650225,            0.088,              0,         2.41,               0,          1, medications_normalized         ,   0.0   , 2025-06-22 12:44:04
+Redshift, tiny        , TRANSFORM     , rs_650253,            0.15 ,              0,        10.13,               0,          1, procedures_enriched            ,   0.0   , 2025-06-22 12:44:04
+Redshift, small       , LOAD_COST     , SUMMARY  ,            0.0  ,              0,       712.48,               0,          0, LOAD_TOTAL                     ,   0.0082, 2025-06-22T14:44:39
+Redshift, small       , LOAD          , rs_653671,            0.174,           5418,         0.60,               0,          1, allergies                      ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653681,            0.352,          37716,         7.22,               0,          1, careplans                      ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653691,            5.11 ,         114545,        13.46,               5,          1, conditions                     ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653699,            0.173,           2361,         0.49,               0,          1, devices                        ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653709,            1.951,         321529,        95.09,               1,          1, encounters                     ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653722,            5.587,           4505,         1.00,               5,          1, imaging_studies                ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653734,            0.204,          16482,         2.12,               0,          1, immunizations                  ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653749,            9.244,              0,        33.05,               9,          1, medications                    ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653749,            9.244,         431263,        97.05,               9,          1, medications                    ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653769,           14.69 ,              0,        64.04,              14,          1, observations                   ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653769,           14.69 ,              0,        64.10,              14,          1, observations                   ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653769,           14.69 ,              0,        46.88,              14,          1, observations                   ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653769,           14.69 ,        1659751,       238.88,              14,          1, observations                   ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653778,            0.22 ,           5500,         0.79,               0,          1, organizations                  ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653789,            9.397,          12353,         3.36,               9,          1, patients                       ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , LOAD          , rs_653807,            6.019,          41393,         3.54,               5,          1, payer_transitions              ,   0.0   , 2025-06-22 14:44:39
+Redshift, small       , QUERY_COST    , SUMMARY  ,            0.0  ,              0,        23.45,               0,          0, QUERY_TOTAL                    ,   0.0030, 2025-06-22T14:46:08
+Redshift, small       , QUERY         , rs_653874,            6.106,              0,         0.00,               6,          1, patients_encounters_basic      ,   0.0   , 2025-06-22 14:46:08
+Redshift, small       , QUERY         , rs_653878,            6.849,         491460,        22.73,               6,          1, general_dataset_query          ,   0.0   , 2025-06-22 14:46:08
+Redshift, small       , QUERY         , rs_653885,           11.256,              0,         0.00,              11,          1, encounters_medications_analysis,   0.0   , 2025-06-22 14:46:08
+Redshift, small       , QUERY         , rs_653897,           10.594,              0,         0.00,              10,          1, conditions_progression_analysis,   0.0   , 2025-06-22 14:46:08
+Redshift, small       , TRANSFORM_COST, SUMMARY  ,            0.0  ,              0,        11.64,               0,          0, TRANSFORM_TOTAL                ,   0.0013, 2025-06-22T15:11:58
+Redshift, small       , TRANSFORM     , rs_654352,            0.074,          12352,         3.12,               0,          1, patients_clean                 ,   0.0   , 2025-06-22 15:11:58
+Redshift, small       , TRANSFORM     , rs_654367,            2.256,              0,         0.00,               2,          1, medications_normalized         ,   0.0   , 2025-06-22 15:11:58
+Redshift, small       , TRANSFORM     , rs_654378,            8.697,              0,         0.00,               8,          1, procedures_enriched            ,   0.0   , 2025-06-22 15:11:58
+Redshift, medium      , LOAD_COST     , SUMMARY  ,            0.0  ,              0,      1579.16,               0,          0, LOAD_TOTAL                     ,   0.0186, 2025-06-22T15:22:41
+Redshift, medium      , LOAD          , rs_654558,            0.23 ,           2112,         0.36,               0,          1, allergies                      ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654565,            0.207,           5876,         1.13,               0,          1, careplans                      ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654575,            1.588,         159849,        58.73,               1,          1, claims                         ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654594,           25.295,              0,        64.07,              25,          1, claims_transactions            ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654594,           25.295,              0,        64.13,              25,          1, claims_transactions            ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654594,           25.295,              0,        60.29,              25,          1, claims_transactions            ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654594,           25.295,              0,        64.13,              25,          1, claims_transactions            ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654594,           25.295,              0,        64.07,              25,          1, claims_transactions            ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654594,           25.295,              0,        64.03,              25,          1, claims_transactions            ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654594,           25.295,              0,        64.10,              25,          1, claims_transactions            ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654594,           25.295,        1319938,       572.29,              25,          1, claims_transactions            ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654594,           25.295,              0,        64.14,              25,          1, claims_transactions            ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654621,            6.329,          55600,         7.62,               6,          1, conditions                     ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654632,            0.263,           8316,         1.78,               0,          1, devices                        ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654644,            0.907,          86475,        27.51,               0,          1, encounters                     ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654654,            1.753,         176995,        59.01,               1,          1, imaging_studies                ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654665,            0.298,          18089,         2.57,               0,          1, immunizations                  ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , LOAD          , rs_654676,            0.767,          73375,        18.16,               0,          1, medications                    ,   0.0   , 2025-06-22 15:22:41
+Redshift, medium      , QUERY_COST    , SUMMARY  ,            0.0  ,              0,        46.78,               0,          0, QUERY_TOTAL                    ,   0.0013, 2025-06-22T15:42:56
+Redshift, medium      , QUERY         , rs_655107,            0.335,         295673,        38.57,               0,          1, patients_encounters_basic      ,   0.0   , 2025-06-22 15:42:56
+Redshift, medium      , QUERY         , rs_655117,            0.31 ,         170411,         8.02,               0,          1, general_dataset_query          ,   0.0   , 2025-06-22 15:42:56
+Redshift, medium      , QUERY         , rs_655120,            3.081,              0,         0.00,               3,          1, encounters_medications_analysis,   0.0   , 2025-06-22 15:42:56
+Redshift, medium      , QUERY         , rs_655124,           11.055,           4096,         0.00,              11,          1, conditions_progression_analysis,   0.0   , 2025-06-22 15:42:56
+Redshift, medium      , TRANSFORM_COST, SUMMARY  ,            0.0  ,              0,        40.52,               0,          0, TRANSFORM_TOTAL                ,   0.0001, 2025-06-22T15:44:13
+Redshift, medium      , TRANSFORM     , rs_655153,            0.051,           2298,         0.59,               0,          1, patients_clean                 ,   0.0   , 2025-06-22 15:44:13
+Redshift, medium      , TRANSFORM     , rs_655169,            0.397,              0,        32.62,               0,          1, medications_normalized         ,   0.0   , 2025-06-22 15:44:13
+Redshift, medium      , TRANSFORM     , rs_655176,            1.045,              0,         0.00,               1,          1, procedures_enriched            ,   0.0   , 2025-06-22 15:44:13
+Redshift, large       , LOAD_COST     , SUMMARY  ,            0.0  ,              0,      9232.26,               0,          0, LOAD_TOTAL                     ,   0.4078, 2025-06-22T15:56:07
+Redshift, large       , LOAD          , rs_655259,            0.284,          51593,         5.72,               0,          1, allergies                      ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655275,            1.723,         377727,        72.33,               1,          1, careplans                      ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655285,            4.38 ,        1143901,       134.44,               4,          1, conditions                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655285,            4.38 ,              0,        70.44,               4,          1, conditions                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655297,            0.303,          23695,         4.90,               0,          1, devices                        ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,              0,        64.01,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,              0,        64.12,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,              0,        64.11,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,              0,        64.15,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,              0,        64.11,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,              0,        64.11,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,        3188676,       943.09,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,              0,        64.14,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,              0,        64.16,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,              0,        64.02,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , LOAD          , rs_655308,           47.274,              0,        47.09,              47,          1, encounters                     ,   0.0   , 2025-06-22 15:56:07
+Redshift, large       , QUERY_COST    , SUMMARY  ,            0.0  ,              0,         0.56,               0,          0, QUERY_TOTAL                    ,   0.0123, 2025-06-22T16:00:53
+Redshift, large       , QUERY         , rs_655524,            5.775,              0,         0.00,               5,          1, patients_encounters_basic      ,   0.0   , 2025-06-22 16:00:53
+Redshift, large       , QUERY         , rs_655530,            3.624,              0,         0.00,               3,          1, general_dataset_query          ,   0.0   , 2025-06-22 16:00:53
+Redshift, large       , QUERY         , rs_655534,           32.066,              0,         0.00,              32,          1, encounters_medications_analysis,   0.0   , 2025-06-22 16:00:53
+Redshift, large       , QUERY         , rs_655552,           43.879,           6144,         0.00,              43,          1, conditions_progression_analysis,   0.0   , 2025-06-22 16:00:53
+Redshift, large       , TRANSFORM_COST, SUMMARY  ,            0.0  ,              0,        36.98,               0,          0, TRANSFORM_TOTAL                ,   0.0018, 2025-06-22T16:57:59
+Redshift, large       , TRANSFORM     , rs_656534,            0.293,         124150,        31.40,               0,          1, patients_clean                 ,   0.0   , 2025-06-22 16:57:59
+Redshift, large       , TRANSFORM     , rs_656543,           21.087,              0,         0.00,              21,          1, medications_normalized         ,   0.0   , 2025-06-22 16:57:59
+Redshift, large       , TRANSFORM     , rs_656558,            2.691,              0,         0.00,               2,          1, procedures_enriched            ,   0.0   , 2025-06-22 16:57:59

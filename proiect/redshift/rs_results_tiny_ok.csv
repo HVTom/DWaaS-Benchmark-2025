@@ -1,0 +1,29 @@
+platform,dataset_size,operation_type,job_id,duration_seconds,rows_processed,mb_processed,total_exec_time,slot_count,table_name,cost_usd,timestamp
+Redshift,tiny,LOAD_COST,SUMMARY,0.0,0,78.78,0,0,LOAD_TOTAL,0.0004,2025-06-22T12:42:28
+Redshift,tiny,LOAD,rs_650003,0.27,101,0.02,0,1,allergies,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650010,0.167,438,0.08,0,1,careplans,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650026,0.291,11974,4.39,0,1,claims,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650039,1.306,111050,48.14,1,1,claims_transactions,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650047,0.179,4429,0.66,0,1,conditions,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650054,0.169,733,0.16,0,1,devices,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650064,0.216,6622,2.10,0,1,encounters,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650072,0.22,914,0.33,0,1,imaging_studies,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650079,0.167,1565,0.22,0,1,immunizations,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650086,0.203,5353,1.33,0,1,medications,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650096,0.55,96125,16.23,0,1,observations,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650103,0.162,284,0.04,0,1,organizations,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650110,0.183,117,0.03,0,1,patients,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650127,0.199,1159,0.20,0,1,payer_transitions,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650136,0.196,11,0.00,0,1,payers,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650146,0.251,20253,4.29,0,1,procedures,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650153,0.174,284,0.05,0,1,providers,0.0,2025-06-22 12:42:28
+Redshift,tiny,LOAD,rs_650160,0.176,3604,0.48,0,1,supplies,0.0,2025-06-22 12:42:28
+Redshift,tiny,QUERY_COST,SUMMARY,0.0,0,3.24,0,0,QUERY_TOTAL,0.0002,2025-06-22T12:43:15
+Redshift,tiny,QUERY,rs_650175,0.142,20990,2.77,0,1,patients_encounters_basic,0.0,2025-06-22 12:43:15
+Redshift,tiny,QUERY,rs_650179,0.065,9466,0.45,0,1,general_dataset_query,0.0,2025-06-22 12:43:15
+Redshift,tiny,QUERY,rs_650182,0.475,0,0.00,0,1,encounters_medications_analysis,0.0,2025-06-22 12:43:15
+Redshift,tiny,QUERY,rs_650186,2.06,0,0.00,2,1,conditions_progression_analysis,0.0,2025-06-22 12:43:15
+Redshift,tiny,TRANSFORM_COST,SUMMARY,0.0,0,18.78,0,0,TRANSFORM_TOTAL,0.0000,2025-06-22T12:44:04
+Redshift,tiny,TRANSFORM,rs_650216,0.065,116,0.03,0,1,patients_clean,0.0,2025-06-22 12:44:04
+Redshift,tiny,TRANSFORM,rs_650225,0.088,0,2.41,0,1,medications_normalized,0.0,2025-06-22 12:44:04
+Redshift,tiny,TRANSFORM,rs_650253,0.15,0,10.13,0,1,procedures_enriched,0.0,2025-06-22 12:44:04
