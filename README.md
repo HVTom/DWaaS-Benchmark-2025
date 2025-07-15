@@ -73,8 +73,8 @@ Automated shell scripts are used for flexibility and reusability.
 
 ## Datasets
 
-- **Source:** [MITRE Synthea](https://duckduckgo.com ) synthetic medical datasets
-- **Format:** 16–18 related CSV files (patients, medications, conditions, etc.)
+- **Source:** [MITRE Synthea](https://synthea.mitre.org/) synthetic medical datasets
+- **Format:** 16–18 related CSV files (simulates a hospital database)
 - **Sizes:**
   - 80 MB (small)
   - 500 MB (medium)
@@ -120,7 +120,7 @@ Automated shell scripts are used for flexibility and reusability.
 ## How to Run
 
 1. **Configure Cloud Accounts**
-   - Set up free/academic resources on Google Cloud, AWS, Azure as applicable
+   - Set up resources on Google Cloud, AWS, Azure (storage + data warehouses) 
 2. **Set Credentials**
    - Update environment variables in scripts for storage and warehouse
 3. **Upload Datasets**
