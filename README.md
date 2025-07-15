@@ -135,4 +135,4 @@ Automated shell scripts are used for flexibility and reusability.
 - Cloud provider auth tools (`gcloud`, `aws`, `az`) installed and authenticated
 
 
-
+TODO - add extra explanations and diagrams
